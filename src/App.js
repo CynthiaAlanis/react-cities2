@@ -1,6 +1,5 @@
 // IMPORT useState
 import React, {useState} from 'react';
-import './styles.css';
 // IMPORT imageData.js AND STORE IT IN A VARIABLE CALLED imagesArr
 import imagesArr from './imageData'
 
@@ -31,6 +30,7 @@ const images = imagesArr.map((image, index) => {
       <div id="wrapper">
         <div id="thumbnails">
           {images}
+         
         </div>
         <img src={bigImage} id='bigimage' alt='bigImage'/> 
       </div>
